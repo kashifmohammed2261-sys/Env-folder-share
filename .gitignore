@@ -1,0 +1,35 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.jwt_secret
+**/.secret_key
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup and temporary files
+*.bak
+*.backup
+indent_test.py
+reset_envshare_password.py
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Timestamped backup files
+**/*.backup_*
